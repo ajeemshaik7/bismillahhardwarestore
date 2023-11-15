@@ -1,0 +1,50 @@
+.navbar{
+     display: flex;
+     justify-content: space-around;
+     border: 5px solid white;
+     border-radius: 1rem;
+     border-top: 20;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background-color: black;
+
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    size-adjust: 2px;
+    shape-image-threshold: inherit;
+    size: 100px;
+
+
+}
+
+.nav-logo p{
+    color: black;
+    font-size: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    size-adjust: 20px;
+    background-color:black;
+    color: aqua;
+    
+}
+
+.nav-logo img{
+    width: 20px;
+    border: 2px solid aqua;
+    padding:2px;
+    margin-left: 20px;
+}
+
+.nav-menu{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap:50px;
+    font: 20px;
+    font-weight: 28px;
+    color: azure;
+    
+}
